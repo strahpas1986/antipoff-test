@@ -1,0 +1,65 @@
+import './Register.css'
+
+function Register() {
+  return (
+    <main className="register">
+      <div className="register__wrapper">
+        <h2 className="register__title">Регистрация</h2>
+        <label className="form-input__wrapper">
+          Имя
+          <input
+            className="form-input__name"
+            type="text"
+            name="name"
+            form="register"
+            required
+            minLength="2"
+            maxLength="30"
+            id="name-input"
+          />
+          <span className="form__input-error"></span>
+        </label>
+        <label className="form-input__wrapper">
+          Электронная почта
+          <input
+            className="form-input__email"
+            type="email"
+            name="email"
+            form="register"
+            required
+            id="email-input"
+          />
+          <span className="form__input-error"></span>
+        </label>
+        <label className="form-input__wrapper">
+          Пароль
+          <input
+            className="form-input__password"
+            type="password"
+            name="password"
+            form="register"
+            required
+            minLength="6"
+            maxLength="30"
+            id="password-input"
+          />
+        </label>
+        <label className="form-input__wrapper">
+          Подтвердите пароль
+          <input
+            className="form-input__password-confirm"
+            type="password"
+            name="password-confirm"
+            form="register"
+            required
+            minLength="6"
+            maxLength="30"
+            id="password-input-confirm"
+          />
+        </label>
+      </div>
+    </main>
+  )
+}
+
+export default Register;
