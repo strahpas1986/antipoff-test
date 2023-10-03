@@ -1,10 +1,12 @@
-import Register from '../Register/Register';
+// import Register from '../Register/Register';
+import Teams from '../Teams/Teams';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Register />
+      {/* <Register /> */}
+      <Teams />
     </div>
   );
 }

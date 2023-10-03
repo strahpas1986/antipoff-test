@@ -8,7 +8,7 @@ function Register() {
         <label className="form-input__wrapper">
           Имя
           <input
-            className="form-input__name"
+            className="form-input"
             type="text"
             name="name"
             form="register"
@@ -22,7 +22,7 @@ function Register() {
         <label className="form-input__wrapper">
           Электронная почта
           <input
-            className="form-input__email"
+            className="form-input"
             type="email"
             name="email"
             form="register"
@@ -34,7 +34,7 @@ function Register() {
         <label className="form-input__wrapper">
           Пароль
           <input
-            className="form-input__password"
+            className="form-input"
             type="password"
             name="password"
             form="register"
@@ -47,7 +47,7 @@ function Register() {
         <label className="form-input__wrapper">
           Подтвердите пароль
           <input
-            className="form-input__password-confirm"
+            className="form-input"
             type="password"
             name="password-confirm"
             form="register"
@@ -57,7 +57,15 @@ function Register() {
             id="password-input-confirm"
           />
         </label>
+        <button
+          type="submit"
+          form="register"
+          className="form__btn-submit"
+        >
+          Зарегистрироваться
+        </button>
       </div>
+
     </main>
   )
 }
