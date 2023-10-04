@@ -1,5 +1,6 @@
 // import Register from '../Register/Register';
 import Teams from '../Teams/Teams';
+import TeamsList from '../TeamsList/TeamsList';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       {/* <Register /> */}
       <Teams />
+      <TeamsList />
     </div>
   );
 }

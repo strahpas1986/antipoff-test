@@ -1,0 +1,15 @@
+.teams-list__btn-more {
+  margin-top: 56px;
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #151317;
+  cursor: pointer;
+}
+
+.teams-list__btn-descr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
